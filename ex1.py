@@ -10,4 +10,4 @@ Print out that many copies of the previous message on separate lines. (Hint: the
 name = raw_input("Hey, Whats your name?")
 age = raw_input("How old are you?")
 current_year = 2017
-print("Hey %s, you will be turning 100 years in %d") % (name, int(current_year-int(age)+100))
+print("Hi %s, you will be turning 100 years in %d") % (name, int(current_year-int(age)+100))
